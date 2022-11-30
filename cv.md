@@ -31,6 +31,7 @@
     - Master of Economics, 2012
 * ITMO University
     - Web developer, 2022
+
 #### Online courses:
 * Stepik, [Python Programming](https://stepik.org/course/67/info), 2020 ([certificate](https://stepik.org/cert/359780))
 * Stepik, [Python Generation: a course for beginners](https://stepik.org/course/58852/info), 2020 ([certificate](https://stepik.org/cert/375106))
@@ -40,6 +41,6 @@
 
 ## Languages:
 * Russian, native
-* English, B2 - upper-intermediate (Cambridge Assessment English certificate)
-* Greek, B1 - intermediate (ΚΕΝΤΡΟ ΕΛΛΗΝΙΚΗΣ ΓΛΩΣΣΑΣ certificate)
-* Italian, A1 - beginner
+* English, B2 (Cambridge Assessment English B2 First certificate)
+* Greek, B1 (ΚΕΝΤΡΟ ΕΛΛΗΝΙΚΗΣ ΓΛΩΣΣΑΣ certificate)
+* Italian, A2
