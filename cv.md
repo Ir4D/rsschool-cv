@@ -2,15 +2,15 @@
 
 ## Contacts:
 * Github - [Ir4D](https://github.com/Ir4D)
-* Discord - Ira.D#8354
 * Telegram - [@irinkad](https://t.me/irinkad)
+* Discord - Ira.D#8354
 * Location: Greece
 
 
 ## About me:
-Through my 10-year-long career in the Banking industry I’ve developed from a customer service employee to a sector leader in the sanctions compliance department.
+Through my 10-year-long career in the Banking industry I’ve developed from a customer service employee to a sanctions compliance manager in the International Compliance department.
 
-My relationship with programming started in 2020, as a hobby, and now I want to fully immerse myself into this sphere and become a front-end developer. I would like to take part in the development and promotion of products and services, creating beautiful and high-quality web-site interfaces while being able to see the results of my work, as well as having the opportunity to participate in open source projects.
+My relationship with programming started in 2020, as a hobby, and now I want to fully immerse myself into this sphere and become a front-end developer. I would like to take part in the development and promotion of products and services, creating beautiful and high-quality website interfaces while being able to see the results of my work, as well as having the opportunity to participate in open source projects.
 
 
 ## Skills:
@@ -41,6 +41,6 @@ My relationship with programming started in 2020, as a hobby, and now I want to 
 
 ## Languages:
 * Russian - native
-* English - B2 (Cambridge Assessment English B2 First certificate)
+* English - B2 (CAE B2 First certificate)
 * Greek - B1 (Κέντρο Ελληνικής Γλώσσας certificate)
 * Italian - A2
