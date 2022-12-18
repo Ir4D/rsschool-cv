@@ -6,12 +6,11 @@
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Roboto";
-  color: #333333;
+  color: #333;
   line-height: 1;
 }
 
@@ -43,7 +42,7 @@ body {
 
 .heading-box-left {
   background-color: #497aa8;
-  color: #ffffff;
+  color: #fff;
 }
 
 .heading-primary {
@@ -185,7 +184,7 @@ body {
 
 .contacts-link:hover,
 .contacts-link:active {
-  color: #497aa8;
+  color: #6491bb;
   border-bottom: 1px solid transparent;
 }
 
@@ -296,7 +295,7 @@ body {
   margin: 0 auto;
   background-color: #364b6c;
   color: #ffffff;
-  padding: 0 14rem;
+  padding: 0 16rem;
 }
 
 .footer-grid {

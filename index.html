@@ -17,36 +17,35 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
 
-    <link rel="icon" href="assets/favicon.ico">
-
     <link rel="stylesheet" href="style.css" />
     <title>Irina Dedova, Front-end developer CV</title>
   </head>
   <body>
-    <div class="main-container">
+    <main class="main-container">
       <div class="container container-left">
-        <header class="header">
-
         <!-- PERSONAL INFORMATION -->
 
-        <div class="personal-info">
-          <div class="personal-info-img-box">
-            <img
-            class="personal-info-img"
-            src="assets/img/id_photo.jpg"
-            alt="Irina Dedova photo"/>
-          </div>
+        <section class="section section-personal-info">
+          <div class="personal-info">
+            <div class="personal-info-img-box">
+              <img
+                class="personal-info-img"
+                src="/photo.jpg"
+                alt="Irina Dedova photo"
+              />
+            </div>
 
-          <div class="personal-info-text">
-            <h1 class="heading-primary full-name">
-              <span class="name">Irina </span><br /><span class="surname">Dedova</span>
-            </h1>
-            <p class="job-title">Front-end Developer</p>
+            <div class="personal-info-text">
+              <h1 class="heading-primary full-name">
+                <span class="name">Irina </span><br /><span class="surname"
+                  >Dedova</span
+                >
+              </h1>
+              <p class="job-title">Front-end Developer</p>
+            </div>
           </div>
-        </div>
-      </header>
-      <main>
-        
+        </section>
+
         <!-- ABOUT ME SECTION -->
 
         <div class="section section-about-me section-border">
@@ -137,7 +136,6 @@
       </div>
 
       <div class="container container-right">
-
         <!-- NAVIGATION -->
 
         <div class="nav-wrap">
@@ -265,13 +263,14 @@ function makeNegative(num) {
                   Study project: landing page built using HTML & CSS
                 </a>
               </p>
+
               <a
                 href="https://jacobite-study-project.netlify.app/"
                 target="_blank"
                 class="project-link"
               >
                 <img
-                  src="assets/img/jacobite-study-project.png"
+                  src="jacobite-study-project.png"
                   alt="jacobite study project image"
                   class="project-img"
                 />
@@ -307,7 +306,6 @@ function makeNegative(num) {
         </section>
       </div>
     </main>
-  </div>
 
     <!-- FOOTER -->
 
@@ -318,14 +316,24 @@ function makeNegative(num) {
         </div>
         <div class="github-col">
           <a href="https://github.com/Ir4D" class="github-link">
-            <i class="github-icon fa-brands fa-github"></i>
+            <i class="github-icon fa-brands fa-github"></i
+          ></a>
         </div>
         <div class="rss-col">
           <a href="https://rs.school/js/" class="rss-link">
-            <img src="assets/img/rs_school_js.svg" alt="RS School logo" class="rss-logo" />
+            <img src="rs_school_js.svg" alt="RS School logo" class="rss-logo" />
           </a>
         </div>
       </div>
     </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
