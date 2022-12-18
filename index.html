@@ -1,11 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Irina Dedova, Front-end developer CV</title>
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="container container-left">
+        <!-- PERSONAL INFORMATION -->
+
+        <section class="section section-personal-info">
+          <div class="personal-info">
+            <div class="personal-info-img-box">
+              <img
+                class="personal-info-img"
+                src="/assets/img/id_photo.jpg"
+                alt="Irina Dedova photo"
+              />
+            </div>
+
+            <div class="personal-info-text">
+              <h1 class="heading-primary full-name">
+                <span class="name">Irina </span><br /><span class="surname"
+                  >Dedova</span
+                >
+              </h1>
+              <p class="job-title">Front-end Developer</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ABOUT ME SECTION -->
+
+        <div class="section section-about-me section-border">
+          <div class="about-me">
+            <div class="content-box">
+              <p class="about-me-text">
+                I would like to take part in the development and promotion of
+                products and services, creating beautiful and high-quality
+                website interfaces while being able to see the results of my
+                work, as well as having the opportunity to participate in open
+                source projects.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACTS SECTION -->
+
+        <div class="mobile-wrap">
+          <section
+            class="section section-contacts section-border"
+            id="contacts"
+          >
+            <div class="heading-box-left">
+              <h2 class="heading-secondary contacts-heading">Contacts</h2>
+            </div>
+            <div class="content-box">
+              <div class="contacts">
+                <ul class="list contacts-list">
+                  <li class="contacts-item">
+                    <i class="contacts-icon fa-brands fa-github"></i>
+                    GitHub:
+                    <a
+                      href="https://github.com/Ir4D"
+                      class="link contacts-link selected-text"
+                      >Ir4D</a
+                    >
+                  </li>
+                  <li class="contacts-item">
+                    <i class="contacts-icon fa-brands fa-telegram"></i>
+                    Telegram:
+                    <a
+                      href="https://t.me/irinkad"
+                      class="link contacts-link selected-text"
+                      >Irinkad</a
+                    >
+                  </li>
+                  <li class="contacts-item">
+                    <i class="contacts-icon fa-brands fa-discord"></i>
+                    Discord: <span class="selected-text">Ira.D#8354</span>
+                  </li>
+                  <li class="contacts-item">
+                    <i class="contacts-icon fa-solid fa-location-dot"></i>
+                    Location: <span class="selected-text">Greece</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <!-- LANGUAGES SECTION -->
+
+          <section class="section section-languages section-border">
+            <div class="languages">
+              <div class="heading-box-left">
+                <h2 class="heading-secondary languages-heading">Languages</h2>
+              </div>
+              <div class="content-box">
+                <ul class="list languages-list">
+                  <li class="languages-item">
+                    Russian: <span class="selected-text">native</span>
+                  </li>
+                  <li class="languages-item">
+                    English: <span class="selected-text">B2 (CAE exam)</span>
+                  </li>
+                  <li class="languages-item">
+                    Greek:
+                    <span class="selected-text">B1 (CAG exam)</span>
+                  </li>
+                  <li class="languages-item">
+                    Italian: <span class="selected-text">A2</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="container container-right">
+        <!-- NAVIGATION -->
+
+        <div class="nav-wrap">
+          <input type="checkbox" id="checkbox-toggle" class="checkbox" />
+          <label for="checkbox-toggle">
+            <i class="fa fa-bars menu-icon"></i>
+          </label>
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#contacts">Contacts</a></li>
+            <li><a class="nav-link" href="#education">Education</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#code">Code</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+          </ul>
+        </div>
+
+        <!-- EDUCATION SECTION -->
+
+        <section
+          class="section section-education section-border"
+          id="education"
+        >
+          <div class="education">
+            <div class="heading-box-right">
+              <h2 class="heading-secondary education-heading">Education</h2>
+            </div>
+            <div class="content-box">
+              <h3 class="heading-third degrees">Degrees</h3>
+              <p>ITMO University: Web developer</p>
+              <p>Peter the Great St. Petersburg Polytechnic University:</p>
+              <ul class="list degrees-list">
+                <li class="degrees-item">Master of Economics</li>
+                <li class="degrees-item">Bachelor of Economics</li>
+              </ul>
+
+              <h3 class="heading-third courses">Courses</h3>
+              <p>
+                RS School:
+                <a href="https://rs.school/js-stage0/" class="link"
+                  >JavaScript/Front-end. Stage 0 (in progress)
+                </a>
+              </p>
+              <p>
+                Udemy:
+                <a
+                  href="https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/"
+                  class="link"
+                  >Build Responsive Real-World Websites with HTML and CSS</a
+                >
+              </p>
+              <p>
+                Stepik:
+                <a href="https://stepik.org/course/67/info" class="link"
+                  >Python Programming</a
+                >,
+                <a href="https://stepik.org/course/58852/info" class="link"
+                  >Python Generation: a course for beginners</a
+                >
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+
+        <section class="section section-skiils section-border" id="skills">
+          <div class="skills">
+            <div class="heading-box-right">
+              <h2 class="heading-secondary skills-heading">Skills</h2>
+            </div>
+            <div class="content-box">
+              <ul class="list skills-list">
+                <li class="skills-item selected-text">HTML, CSS</li>
+                <li class="skills-item selected-text">JavaScript</li>
+                <li class="skills-item selected-text">Python (basics)</li>
+                <li class="skills-item selected-text">Git, Jira</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- CODE SECTION -->
+
+        <section class="section section-code section-border" id="code">
+          <div class="code">
+            <div class="heading-box-right">
+              <h2 class="heading-secondary code-heading">Code</h2>
+            </div>
+            <div class="content-box">
+              <p class="code-text">
+                <a
+                  href="https://www.codewars.com/kata/55685cd7ad70877c23000102"
+                  class="link code-link"
+                  >Return Negative</a
+                >
+                task from Codewars (the given number has to be made negative):
+              </p>
+              <pre class="code-example">
+function makeNegative(num) {
+  if (num > 0) {
+    return -num;
+  } else {
+    return num;
+  }
+}</pre
+              >
+            </div>
+          </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+
+        <div class="section section-projects section-border" id="projects">
+          <div class="projects">
+            <div class="heading-box-right">
+              <h2 class="heading-secondary projects-heading">Projects</h2>
+            </div>
+            <div class="content-box project-box">
+              <p>
+                <a
+                  class="project-text"
+                  href="https://jacobite-study-project.netlify.app/"
+                  target="_blank"
+                >
+                  Study project: landing page built using HTML & CSS
+                </a>
+              </p>
+
+              <a
+                href="https://jacobite-study-project.netlify.app/"
+                target="_blank"
+                class="project-link"
+              >
+                <img
+                  src="/assets/img/jacobite-study-project.png"
+                  alt="jacobite study project image"
+                  class="project-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EXPERIENCE SECTION -->
+
+        <section class="section section-experience section-border">
+          <div class="experience">
+            <div class="heading-box-right">
+              <h2 class="heading-secondary experience-heading">Experience</h2>
+            </div>
+            <div class="content-box">
+              <p class="experience-text">
+                10 years in the Banking industry, the last 6 of which in
+                Sanctions Compliance.
+              </p>
+              <p class="experience-text">
+                Through my 10-year-long career in the Banking industry I have
+                developed from a customer service employee to a sanctions
+                compliance manager in the International Compliance Department.
+              </p>
+              <p class="experience-text">
+                My relationship with programming started in 2020, as a hobby,
+                and now I want to fully immerse myself into this sphere and
+                become a front-end developer.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="footer-grid">
+        <div class="year-col">
+          <p>2022</p>
+        </div>
+        <div class="github-col">
+          <a href="https://github.com/Ir4D" class="github-link">
+            <i class="github-icon fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div class="rss-col">
+          <a href="https://rs.school/js/" class="rss-link">
+            <img
+              src="/assets/img/rs_school_js.svg"
+              alt="RS School logo"
+              class="rss-logo"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
