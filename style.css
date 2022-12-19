@@ -95,9 +95,9 @@ body {
 /* NAVIGATION */
 /* ***************************** */
 
-.nav-wrap {
+/* .navigation-wrap {
   position: fixed;
-}
+} */
 
 .nav-list {
   list-style: none;
@@ -405,8 +405,9 @@ body {
 
   /* MOBILE NAVIGATION */
 
-  .nav-wrap {
+  .navigation-wrap {
     display: inline-block;
+    position: fixed;
   }
 
   .checkbox {
