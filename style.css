@@ -92,6 +92,44 @@ body {
 }
 
 /* ***************************** */
+/* NAVIGATION */
+/* ***************************** */
+
+.nav-wrap {
+  position: fixed;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 4rem;
+  max-width: 120rem;
+  margin: 0 auto;
+  background-color: #364b6c;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #b7ddf4;
+  border-bottom: 1px solid transparent;
+}
+
+/* ***************************** */
 /* MAIN */
 /* ***************************** */
 
@@ -104,7 +142,7 @@ body {
 
 .container-left,
 .container-right {
-  padding: 3rem 5rem 2rem 5rem;
+  padding: 6rem 5rem 2rem 5rem;
 }
 
 .container-left {
@@ -190,37 +228,6 @@ body {
 }
 
 /* ***************************** */
-/* NAVIGATION */
-/* ***************************** */
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 8rem;
-}
-
-.nav-link:link,
-.nav-link:visited {
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 1.8rem;
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 0.5rem;
-  transition: all 0.3s;
-}
-
-.nav-link:hover,
-.nav-link:active {
-  color: #b7ddf4;
-  border-bottom: 1px solid transparent;
-}
-
-/* ***************************** */
 /* EDUCATION SECTION */
 /* ***************************** */
 
@@ -293,6 +300,7 @@ body {
 /* ***************************** */
 
 .footer {
+  max-width: 120rem;
   margin: 0 auto;
   background-color: #364b6c;
   color: #ffffff;
