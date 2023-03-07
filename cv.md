@@ -37,3 +37,23 @@ function makeNegative(num) {
 10 years in the Banking industry, the last 6 of which in Sanctions Compliance.
 
 
+## Education
+#### Degrees:
+* ITMO University
+    - Web developer
+* Peter the Great St. Petersburg Polytechnic University
+    - Master of Economics
+    - Bachelor of Economics
+
+#### Courses:
+* RS School, [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/), ([certificate](https://app.rs.school/certificate/y2esx3ag))
+* Udemy, [Build Responsive Real-World Websites with HTML and CSS](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/), ([certificate](https://ude.my/UC-e735fcef-61e7-4928-bda0-44ba66dba1da))
+* Stepik, [Python Programming](https://stepik.org/course/67/info), ([certificate](https://stepik.org/cert/359780))
+* Stepik, [Python Generation: a course for beginners](https://stepik.org/course/58852/info), ([certificate](https://stepik.org/cert/375106))
+
+
+## Languages
+* Russian: native
+* English: B2 (CAE exam)
+* Greek: B1 (CAG exam)
+* Italian: A2
